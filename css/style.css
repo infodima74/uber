@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+body{
+     font-family: 'Roboto';
+      margin: 0px auto;
+      cursor: auto;
+     }
+.center{
+  cursor: auto;
+}
+
+.header{
+  width: 100%;
+  height: 72px;
+  background-color: #FFFFFF;
+  color: #1D1D1D;
+  border-bottom: 1px solid #FFFFFF;
+  box-shadow: 0px 0px 16px rgba(38, 38, 38, 0.16);
+  margin: auto;
+  cursor: default;
+  }
+.header__wrapper{
+  width: 956px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+}
+.site_name__wrapper{
+   margin:30px 0px;
+  }
+.header__navigation{
+  display: block;
+  width: 142px;
+   }
+.navigation{
+  display: flex;
+  justify-content: space-between;
+  height:72px;
+  align-items:center;
+}
+.navigation_link1{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 24px;
+  border: 1px solid #E0E0E0;
+  box-sizing: border-box;
+  border-radius: 2px;
+  padding: 14px 20px;
+}
+h2{font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 34px;
+
+  font-family: Roboto;}
+a{
+  text-decoration: none;
+  color: #1D1D1D;
+}
+section{
+  display: flex;
+  margin: auto;
+  width: 1124px;
+  }
+
+.centr_im{
+  margin: auto;
+  width: 1124px;
+}
+.centr_im_search1{
+  margin: 56px 81px 0px 81px;
+  border: 1px solid  rgba(117, 117, 117, 0.3);
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+.centr_im_search1:active, :hover, :focus {
+  outline: 0;
+  outline-offset: 0;
+}
+
+.centr_im_search{
+  font-size: 16px;
+  width: 956px;
+  border: none;
+  color:  rgba(98, 98, 98, 0.5);
+}
+.foto_menu{
+  margin: auto;
+  margin-bottom: 64px;
+}
+.wrapper{
+  margin: 56px 81px 0px 81px;
+  color: #1D1D1D;
+}
+ul{
+  padding-inline-start: 0px;
+  list-style-type: disc;
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+li{
+  list-style-type: none;
+}
+.menu_images__wrapper{
+  display: flex;
+  flex: 0 1 33.333%;
+  width: 956px;
+  }
+.menu_images{
+  display: flex;
+  flex-wrap:wrap;
+}
+.menu_images__item{
+  margin-top: 16px;
+  margin-right: auto;
+  width: 308px;
+  display: block;
+  }
+.name_bluda{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 16px 0px 0px auto;
+  color: #1D1D1D;
+}
+.coment{
+  font-family: Roboto;
+  margin: 4px 0px 4px auto;
+  color: #626262;
+  font-size: 14px;
+}
+.many{
+  font-family: Roboto;
+  margin-bottom: 20px;
+  font-size: 13px;
+  color: #1D1D1D;
+}
+.footer{
+  display: block;
+  background: #262626;
+  margin: auto;
+  width: 100%;
+}
+.footer_logo{
+  
+  height: 116px;
+  width: 956px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+  box-shadow: 0px 0px 16px rgba(38, 38, 38, 0.16);
+  
+  }
+.site_name__wrapper{
+  margin: auto auto auto 0px ;
+}
+.footer_hedder{
+  margin: auto ;
+  height: 220px;
+  width: 956px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+  box-shadow: 0px 0px 16px rgba(38, 38, 38, 0.16);
+  
+}
+.footer_hedder_poleles{
+  display: flex;
+  flex: 0 1 33.333%;
+  width: 956px;
+}
+  
+.lauding{
+  height: 40px;
+  width: 227px;
+  background: #3B3B3B;
+  border-radius: 2px;
+  width: 227px;
+  height: 40px;
+  font-size: 13px;
+  color: #FFFFFF;
+  padding: 12px 48px;
+  margin: 32px 0px;
+  border: 0px;
+}
+.footer_hedder_colum{
+  display:flex;
+  width: 318px;
+  color: #FFFFFF;
+  font-size: 13px;
+}
+.footer_otstup{
+  display: flex;
+  flex-direction:column;
+  margin-top: 16px;
+  justify-content:flex-start;
+  height: 220px;
+}
+
+.footer_prog{  
+  margin: auto;
+  height: 120px;
+  width: 956px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+  box-shadow: 0px 0px 16px rgba(38, 38, 38, 0.16);
+
+}
+.footer_prog_play{
+  display:flex;
+  align-items:center;
+  margin: auto;
+  }
+.img_google{
+    margin: 0px 20px 0px 20px;
+  }
+.footer_info{
+  display: flex;
+  width: 956px;
+  color: #FFFFFF;
+  height: 93px;
+  font-size: 11px;
+  margin: auto;
+  position: relative;
+  z-index: 1;
+
+  }
+.footer_info_d{
+  display: flex;
+  flex: 0 1 33.333%;
+  width: 95px;
+ }
+.footer_prog_play_pones{
+  width: 956px;
+  display: flex;
+  margin: 40px 0px 40px auto;
+  }
+.vertical__column_1{
+  width: 318px;
+  display: block;
+  }
+#help{
+  display: inline;
+  margin-top: 23px;
+  font-family: Roboto;
+}
+.ikonka{
+  position: absolute;
+  margin: 45px auto auto 21px;
+  z-index: 2;
+}
+.lauding{
+  position: relative;
+  z-index: 1;
+}
+
+.green_bootan{
+  height: 80px;
+  width: 80px;
+  position:fixed; 
+  bottom:50px; 
+  right: 50px;
+  margin: auto;
+  z-index: 2;
+}
